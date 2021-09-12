@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "dashboard-86c09": {
+      "hosting": {
+        "Angular-firebase-dashboard": [
+          "dashboard-86c09"
+        ]
+      }
+    }
+  }
+}
