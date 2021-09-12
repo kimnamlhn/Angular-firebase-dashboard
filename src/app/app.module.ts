@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
-import { FogotPasswordComponent } from './fogot-password/fogot-password.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { VerifyEmailComponent } from './verify-email/verify-email.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
@@ -18,10 +18,11 @@ import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.compo
     HomeComponent,
     SignupComponent,
     LoginComponent,
-    FogotPasswordComponent,
+    ForgotPasswordComponent,
     VerifyEmailComponent,
     DashboardComponent,
-    AdminDashboardComponent
+    AdminDashboardComponent,
+    ForgotPasswordComponent
   ],
   imports: [
     BrowserModule,
