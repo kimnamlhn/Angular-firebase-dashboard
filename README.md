@@ -1,6 +1,6 @@
 # AngularFirebaseDashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
+Secure dashboard with angular and firebase.
 
 ## Development server
 
@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Reference
+
+[[Ref]](https://www.youtube.com/watch?v=HRaINOrhXbw&lc=Ugy08TaQ8KKWh3gAFcR4AaABAg.9S-Ee3UQX_T9S-Gv5I0xkI) This repo was created by following the Angular & Firebase dashboard tutorial on youtube made by Ryan.
