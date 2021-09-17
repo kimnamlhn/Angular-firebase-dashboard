@@ -53,10 +53,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 
-// import { AngularFireModule } from '@angular/fire';
-// import { AngularFirestoreModule } from '@angular/fire/firestore';
-// import { AngularFireDatabaseModule } from '@angular/fire/database';
-// import { AngularFireStorageModule } from '@angular/fire/storage';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { AngularFireStorageModule } from '@angular/fire/storage';
 import { environment } from '../environments/environment';
 
 
@@ -77,10 +77,10 @@ import { environment } from '../environments/environment';
     AppRoutingModule,
     BrowserAnimationsModule,
 
-    // AngularFireModule.initializeApp(environment.firebase),  // imports firebase/app needed for everything
-    // AngularFirestoreModule,                                 // imports firebase/firestore, only needed for database features
-    // AngularFireStorageModule,                               // imports firebase/storage only needed for storage features
-    // AngularFireDatabaseModule,
+    AngularFireModule.initializeApp(environment.firebase),  // imports firebase/app needed for everything
+    AngularFirestoreModule,                                 // imports firebase/firestore, only needed for database features
+    AngularFireStorageModule,                               // imports firebase/storage only needed for storage features
+    AngularFireDatabaseModule,
 
     MatAutocompleteModule,
     MatBadgeModule,
